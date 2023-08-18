@@ -1,0 +1,230 @@
+#example:hover{
+    background-color: rgb(236, 234, 228);
+    border: 10px;
+}
+.ex{
+    border: 2px ;
+    text-align: center;
+    font-size: larger;
+
+}
+
+.cntr{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(3,330px);
+    margin-bottom: 10px;
+}
+.search_bar input{
+    padding-right: 25px;
+}
+.search_bar img{
+    position: absolute;
+    top: 0;
+    right: 24%;
+    width: 60px;
+    height: 40px;
+    mix-blend-mode: darken;
+    z-index: 1;
+}
+.search_bar{
+position: relative;
+border: 2px ;
+display: flex;
+justify-content: center;
+margin-bottom: 8px;
+}
+input[type='text']{
+    border: 2px solid black;
+    width: 650px;
+    padding: 10px;
+    border-radius: 5px;
+   
+
+}
+.items{
+    padding-top: 50px;
+    padding-bottom: 30px;
+    border: 2px ;
+    border-radius: 5px;
+    padding: 12px;
+    margin: 4px;
+    width: 300px;
+    background-color:rgb(240, 241, 243);
+}
+.cointainer{
+    border: 2px ;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(3,minmax(300px,1fr));
+    ;
+    /* min-width: none; */
+    /* width: 50%; */
+    margin: auto;
+    margin-bottom: 20px;
+    margin-left: 15px;
+}
+ 
+.name{
+    margin-bottom: 70px;
+    border: 2px;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    font-weight: bolder ;
+    font-size: 30px;
+}
+.nav{
+    border: 2px solid black;
+    background-color: rgb(30, 27, 27);
+    padding: 20px;
+}
+body{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    /* background-color:red; */
+}
+*{
+    padding: 0;
+    margin: 0;
+    text-transform: capitalize;
+    /* border-color: antiquewhite; */
+   
+}
+.side-bar{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #fff;
+    align-items: center;
+    text-align: center;
+    width: 244px;
+    height: 100vh;
+    background-color: #202123;
+}
+button{
+    padding: 10px;
+    background-color: transparent;
+    margin: 10px;
+    color: #fff;
+    width: 90%;
+    border-radius: 5px;
+    border: solid 0.5px rgba(255,255,255,0.5);
+}
+button:hover{
+    background-color:rgba(84, 84, 84, 0.5);
+    /* text-decoration: underline; */
+}
+nav{
+    padding: 10px;margin: 10px;
+    border-top:  solid 1.5px white; /*rgba(255, 255, 255, 0.5);*/
+    /* margin-top: 400px; */
+    
+}
+.info{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.history{
+    padding: 100px;
+    margin: 10px;
+    /* border: solid violet; */
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    /* justify-content: space-between; */
+    /* border: 2px solid violet; */
+}
+.search_bar{
+    /* border: 2px solid red; */
+    justify-content: center;
+    align-items: center;
+}
+.search_bar p{
+    /* display: flex; */
+    font-size: 30px;
+    position: absolute;
+    top: -4px;
+    right: 20%;
+    /* align-items: flex-end; */
+    justify-content: flex-end;
+}
+.cntr svg{
+    /* color: aqua; */
+    /* background-color: blue; */
+    font-size: 20px;
+}
+.right2{
+    display: flex;
+    flex-direction: column;
+    margin: 0; 
+    width: 100%;
+    display: none;
+   
+}
+
+.items0{
+    padding: 20px;
+    margin: 0;
+    width: 100%;
+    text-align: center;
+    /* border: 2px solid red; */
+
+}
+.items1{
+    display: flex;
+    /* flex-direction: column; */
+    padding: 5px;
+    margin: 5px;
+    padding: 20px;
+    margin: 0;
+    width: 99%;
+    height: 50px;
+    background-color: #f7f8f8;
+    /* border: 2px solid red;   */
+}
+.img2{
+    width: 35px;
+    height: 35px;
+    /* padding: 10px; */
+    margin: 5px 0px;
+    border-radius: 2px;
+    background-color: #0b7d55;
+}
+.items2{
+    display: flex;
+    /* flex-direction: column; */
+    /* justify-content: space-evenly; */
+    padding: 20px;
+    margin: 0;
+    width: 98%;
+    height: 60px;
+    margin-bottom: 100px;
+    background-color: #d7d6d6;
+    /* border: 2px solid red;   */
+}
+.img1{
+    width: 35px;
+    height: 45px;
+    border-radius: 2px;
+    background-color: #e40707;
+}
+.coin{
+    /* border: 2px solid red; */
+    display: flex;
+    /* margin: 5px; */
+    margin-right: 10px;
+    flex-direction: column;
+}
+#par{
+    position: relative;
+    top: 0px;
+    left: 50px;
+    /* display: block; */
+    border: red solid;
+    display: inline-block;
+}
+
+
